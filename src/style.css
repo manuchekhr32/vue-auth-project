@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+input, textarea {
+    @apply px-3 py-2 border w-full text-base;
+}
+
+button {
+    @apply px-3 py-2 w-full bg-blue-500 text-white;
+}
